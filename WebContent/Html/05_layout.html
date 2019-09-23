@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+		<title>Insert title here</title>
+		<!-- * 은 모든 태그를 의미한다. 브라우저의 여백을 없애기 위해 작성했음 -->
+		<style type="text/css">
+			* { 
+				margin:0px;
+				padding:0px;
+			}
+			
+			#wapper {
+				width:800px;
+				margin:auto; /*마진을 얼만큼 줄지는 모르겠지만 좌우로 똑같이 주겠다.*/
+			}
+			
+			#header {
+				border:1px solid black;
+				height:100px;
+				padding:10px;
+			}
+			#content {
+				padding:10px;
+				border:1px solid black;
+				height:300px;
+			}
+			#footer {
+				border:1px solid black;
+				height:50px;
+				clear:both;
+			}
+			
+			#logo {
+				width:100%;
+				height:80%;
+				border:1px solid black;
+				background-color:#00ffff;
+			}
+			#mainMenu {
+				width:100%;
+				height:20%;
+				border:1px solid black;
+				background-color:orange;
+			}
+			#sideBar {
+				border:1px solid black;
+				background-color:rgb(156,158,224);	
+				width:150px;
+				height:100%;
+				float:left;
+			}
+			#center {
+				border:1px solid black;
+				background-color:#DDDDDD;
+				width:620px;
+				height:100%;
+				float:left;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wapper">
+			<div id="header">
+				<div id="logo"></div>
+				<div id="mainMenu"></div>
+			</div>
+			
+			<div id="content">
+				<div id="sideBar"></div>
+				<div id="center"></div>
+			</div>
+			
+			<div id="footer"></div>
+		</div>
+	</body>
+</html>
